@@ -31,7 +31,10 @@ Debian 中文社区软件源列表说明
     - fortune-zh
     - manpages-zh
     - nixnote2
-    - libqtelegram-ae
+    - cutegram
+        + libqtelegram-ae
+        + telegramqml
+        + asemantools
     - obs-studio*
 
 .. *: 尚未作为子模块

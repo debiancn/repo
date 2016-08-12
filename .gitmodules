@@ -13,3 +13,12 @@
 [submodule "libqtelegram-ae"]
 	path = libqtelegram-ae
 	url = https://github.com/debiancn/libqtelegram-aseman-edition.git
+[submodule "cutegram"]
+	path = cutegram
+	url = https://github.com/debiancn/Cutegram.git
+[submodule "telegramqml"]
+	path = telegramqml
+	url = https://github.com/debiancn/TelegramQML.git
+[submodule "asemantools"]
+	path = asemantools
+	url = https://github.com/debiancn/aseman-qt-tools.git
