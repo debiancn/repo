@@ -22,3 +22,15 @@
 [submodule "asemantools"]
 	path = asemantools
 	url = https://github.com/debiancn/aseman-qt-tools.git
+[submodule "goldendict"]
+	path = goldendict
+	url = https://github.com/hosiet/goldendict
+[submodule "deepin-terminal"]
+	path = deepin-terminal
+	url = https://github.com/hosiet/deepin-terminal.git
+[submodule "shadowsocks-qt5"]
+	path = shadowsocks-qt5
+	url = https://github.com/hosiet/shadowsocks-qt5.git
+[submodule "libqtshadowsocks"]
+	path = libqtshadowsocks
+	url = https://github.com/hosiet/libqtshadowsocks.git
