@@ -34,3 +34,9 @@
 [submodule "libqtshadowsocks"]
 	path = libqtshadowsocks
 	url = https://github.com/hosiet/libqtshadowsocks.git
+[submodule "vc"]
+	path = vc
+	url = https://github.com/hosiet/vc.git
+[submodule "krita"]
+	path = krita
+	url = https://github.com/hosiet/krita.git

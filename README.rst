@@ -68,6 +68,8 @@ Debian 中文社区软件源列表说明
     - ``nixnote2``
     - ``deepin-terminal``
     - ``goldendict``
+    - ``krita`` (krita 3.x)
+        + ``vc``
     - ``shadowsocks-qt5``
         + ``libqtshadowsocks``
     - ``cutegram``
