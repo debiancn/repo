@@ -64,9 +64,9 @@ Debian 中文社区软件源列表说明
 * 使用 Git 管理的软件包
     - ``mini-buildd``
     - ``fortune-zh``
-    - ``manpages-zh``
+    - ``manpages-zh`` |travis-ci-package-manpages-zh|_
     - ``nixnote2``
-    - ``deepin-terminal``
+    - ``deepin-terminal`` |travis-ci-package-deepin-terminal|_
     - ``goldendict``
     - ``krita`` (krita 3.x)
         + ``vc``
@@ -77,6 +77,11 @@ Debian 中文社区软件源列表说明
         + ``telegramqml``
         + ``asemantools``
     - ``obs-studio`` *
+
+.. |travis-ci-package-manpages-zh| image:: https://travis-ci.org/debiancn/manpages-zh.svg?branch=debian
+.. _travis-ci-package-manpages-zh: https://travis-ci.org/debiancn/manpages-zh
+.. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
+.. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
 
 .. *: 尚未作为子模块
 .. ^: 尚未纳入管理
