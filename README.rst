@@ -64,6 +64,7 @@ Debian 中文社区软件源列表说明
 * 使用 Git 管理的软件包
     - ``mini-buildd``
     - ``fortune-zh``
+    - ``shadowsocks-libev`` (Jessie backports)
     - ``manpages-zh`` |travis-ci-package-manpages-zh|_
     - ``nixnote2``
     - ``deepin-terminal`` |travis-ci-package-deepin-terminal|_
