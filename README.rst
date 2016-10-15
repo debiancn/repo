@@ -47,45 +47,212 @@ Debian 中文社区软件源列表说明
 软件包一览
 ------------------
 
-* 无法从源代码构建的软件包
-    - ``chrome``
-    - ``wps-office``
-    - ``visual-studio-code``
-    - ``telegram-desktop``
-    - ``netease-cloud-music``
-    - ``haroopad`` ^
-* 可以获得源代码但尚未使用 Git 管理的软件包
-    - ``eric``
-    - ``libpng12`` ^
-    - ``deepin-menu``
-    - ``xfce4-kbdleds-plugin`` ^
-    - ``qtox`` ^
-    - ``i3-gaps`` ^
-* 使用 Git 管理的软件包
-    - ``mini-buildd``
-    - ``fortune-zh``
-    - ``shadowsocks-libev`` (Jessie backports)
-    - ``manpages-zh`` |travis-ci-package-manpages-zh|_
-    - ``nixnote2``
-    - ``deepin-terminal`` |travis-ci-package-deepin-terminal|_
-    - ``goldendict``
-    - ``krita`` (krita 3.x)
-        + ``vc``
-    - ``shadowsocks-qt5``
-        + ``libqtshadowsocks``
-    - ``cutegram``
-        + ``libqtelegram-ae``
-        + ``telegramqml``
-        + ``asemantools``
-    - ``obs-studio`` *
+.. list-table::
+    :header-rows: 1
+    
+    * - **软件包名**
+      - **软件全名**
+      - **开源？**
+      - **适合 Debian 版本**
+      - **Git 管理？**
+      - **持续集成**
+      - **备注**
+    * - ``chrome``
+      - Google Chrome
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``wps-office``
+      - Kingsoft WPS Office
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``code``
+      - Visual Studio Code
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``telegram``
+      - Telegram Desktop
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
+    * - ``netease-cloud-music``
+      - NetEase Cloud Music Client
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``haroopad``
+      - Haroopad Document Processor
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``mini-buildd``
+      - Debian Mini Build Daemon
+      - 是
+      - jessie
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/mini-buildd>`_
+    * - ``manpages-zh``
+      - Chinese Man Pages
+      - 是
+      - stretch, sid
+      - 是
+      - |travis-ci-package-manpages-zh|_
+      - `tracker <https://tracker.debian.org/pkg/manpages-zh>`_
+    * - ``deepin-menu``
+      - Deepin Menu Service
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``deepin-terminal``
+      - Deepin Terminal
+      - 是
+      - stretch, sid
+      - 是
+      - |travis-ci-package-deepin-terminal|_
+      -
+    * - ``fortune-zh``
+      - Chinese data files for fortune
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/fortune-zh>`_
+    * - ``libpng12``
+      - PNG Library (v1.2)
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
+    * - ``obs-studio``
+      - Open Broadcasting System
+      - 是
+      - jessie
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/obs-studio>`_
+    * - ``cutegram``
+      - Cutegram
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``asemantools``
+      - Aseman Tools for Qt and Qml
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``telegramqml``
+      - Telegram API Tools
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``libqtelegram-ae``
+      - Libqtelegram Aseman Edition
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``shadowsocks-qt5``
+      - Shadowsocks client in Qt5
+      - 是
+      - jessie, stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``libqtshadowsocks``
+      - libqtshadowsocks
+      - 是
+      - jessie, stretch, sid
+      - 是
+      - N/A
+      -
+    * - ``nixnote2``
+      - NixNote2 Evernote Client
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - `RFS <https://bugs.debian.org/832704>`_
+    * - ``shadowsocks-libev``
+      - Shadowsocks libev port
+      - 是
+      - jessie
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/shadowsocks-libev>`_
+    * - ``goldendict``
+      - Goldendict (Qt5 version)
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/goldendict>`_
+    * - ``vc``
+      - VC C++ library
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
+    * - ``krita``
+      - Krita 3.x
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - `tracker <https://tracker.debian.org/pkg/krita>`_; `NEW <https://ftp-master.debian.org/new/krita_1:3.0.1+dfsg-1.html>`_
+    * - ``qtox``
+      - QTox
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
+    * - ``i3-gaps``
+      - i3 Unofficial Fork
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
+    * - ``xfce4-kbdleds-plugin``
+      - Xfce panel keyboard LEDs plugin
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
+
 
 .. |travis-ci-package-manpages-zh| image:: https://travis-ci.org/debiancn/manpages-zh.svg?branch=debian
 .. _travis-ci-package-manpages-zh: https://travis-ci.org/debiancn/manpages-zh
 .. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
 .. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
 
-.. *: 尚未作为子模块
-.. ^: 尚未纳入管理
 
 缩略词解释
 -----------------
