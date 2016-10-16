@@ -28,7 +28,10 @@ Testing / Unstable 不稳定版用户
 Jessie 稳定版用户
 ~~~~~~~~~~~~~~~~~~
 
-内容待添加……
+1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ stable-experimental main" > /etc/apt/sources.list.d/debiancn.list;``
+2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debian-keyring_0~20160915_all.deb -O /tmp/debiancn-keyring.deb;``
+3. ``apt install /tmp/debiancn-keyring.deb;``
+4. ``apt update;``
 
 彻底移除社区软件源
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,6 +60,13 @@ Debian 中文社区软件源列表说明
       - **Git 管理？**
       - **持续集成**
       - **备注**
+    * - ``debiancn-keyring``
+      - DebianCN Repo Keyring
+      - 是
+      - jessie, stretch, sid
+      - 是
+      - |travis-ci-package-debiancn-keyring|_
+      -
     * - ``chrome``
       - Google Chrome
       - 否
@@ -252,6 +262,8 @@ Debian 中文社区软件源列表说明
 .. _travis-ci-package-manpages-zh: https://travis-ci.org/debiancn/manpages-zh
 .. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
 .. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
+.. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
+.. _travis-ci-package-debiancn-keyring: https://travis-ci.org/debiancn/debiancn-keyring
 
 
 缩略词解释
