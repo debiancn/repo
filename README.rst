@@ -29,7 +29,7 @@ Jessie 稳定版用户
 ~~~~~~~~~~~~~~~~~~
 
 1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ stable-experimental main" > /etc/apt/sources.list.d/debiancn.list;``
-2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debian-keyring_0~20160915_all.deb -O /tmp/debiancn-keyring.deb;``
+2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20160915_all.deb -O /tmp/debiancn-keyring.deb;``
 3. ``apt install /tmp/debiancn-keyring.deb;``
 4. ``apt update;``
 
