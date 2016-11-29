@@ -200,13 +200,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - ``nixnote2``
-      - NixNote2 Evernote Client
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      - `RFS <https://bugs.debian.org/832704>`_
     * - ``shadowsocks-libev``
       - Shadowsocks libev port
       - 是
