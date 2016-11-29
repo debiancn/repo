@@ -4,9 +4,6 @@
 [submodule "fortune-zh"]
 	path = fortune-zh
 	url = https://github.com/debiancn/fortune-zh.git
-[submodule "nixnote2"]
-	path = nixnote2
-	url = https://github.com/hosiet/nixnote2.git
 [submodule "mini-buildd"]
 	path = mini-buildd
 	url = https://github.com/debiancn/mini-buildd.git
