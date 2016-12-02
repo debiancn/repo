@@ -40,3 +40,6 @@
 [submodule "debiancn-keyring"]
 	path = debiancn-keyring
 	url = https://github.com/debiancn/debiancn-keyring.git
+[submodule "deepin-gettext-tools"]
+	path = deepin-gettext-tools
+	url = https://github.com/debiancn/deepin-gettext-tools.git
