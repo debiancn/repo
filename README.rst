@@ -184,7 +184,7 @@ Debian 中文社区软件源列表说明
       - 是
       - stretch, sid
       - 是
-      - N/A
+      - |travis-ci-package-libqtelegram-ae|_
       -
     * - ``shadowsocks-qt5``
       - Shadowsocks client in Qt5
@@ -257,6 +257,8 @@ Debian 中文社区软件源列表说明
 .. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
 .. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
 .. _travis-ci-package-debiancn-keyring: https://travis-ci.org/debiancn/debiancn-keyring
+.. |travis-ci-package-libqtelegram-ae| image:: https://travis-ci.org/debiancn/libqtelegram-aseman-edition.svg?branch=master
+.. _travis-ci-package-libqtelegram-ae: https://travis-ci.org/debiancn/libqtelegram-aseman-edition
 
 向社区源提交一个软件包
 ------------------------------------
