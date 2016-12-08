@@ -4,9 +4,6 @@
 [submodule "fortune-zh"]
 	path = fortune-zh
 	url = https://github.com/debiancn/fortune-zh.git
-[submodule "mini-buildd"]
-	path = mini-buildd
-	url = https://github.com/debiancn/mini-buildd.git
 [submodule "libqtelegram-ae"]
 	path = libqtelegram-ae
 	url = https://github.com/debiancn/libqtelegram-aseman-edition.git
