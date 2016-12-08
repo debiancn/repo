@@ -115,7 +115,7 @@ Debian 中文社区软件源列表说明
       - stretch, sid
       - 是
       - |travis-ci-package-manpages-zh|_
-      - `tracker <https://tracker.debian.org/pkg/manpages-zh>`_
+      - `manpages-zh tracker <https://tracker.debian.org/pkg/manpages-zh>`_
     * - ``deepin-menu``
       - Deepin Menu Service
       - 是
@@ -143,21 +143,21 @@ Debian 中文社区软件源列表说明
       - stretch, sid
       - 是
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/fortune-zh>`_
+      - `fortune-zh tracker <https://tracker.debian.org/pkg/fortune-zh>`_
     * - ``libpng12``
       - PNG Library (v1.2)
       - 是
       - stretch, sid
       - 否
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
+      - `libpng tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
     * - ``obs-studio``
       - Open Broadcasting System
       - 是
       - jessie
       - 是
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/obs-studio>`_
+      - `obs tracker <https://tracker.debian.org/pkg/obs-studio>`_
     * - ``cutegram``
       - Cutegram
       - 是
@@ -206,14 +206,14 @@ Debian 中文社区软件源列表说明
       - jessie
       - 是
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/shadowsocks-libev>`_
+      - `ss-libev tracker <https://tracker.debian.org/pkg/shadowsocks-libev>`_
     * - ``goldendict``
       - Goldendict (Qt5 version)
       - 是
       - stretch, sid
       - 是
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/goldendict>`_
+      - `goldendict tracker <https://tracker.debian.org/pkg/goldendict>`_
     * - ``vc``
       - VC C++ library
       - 是
@@ -227,7 +227,7 @@ Debian 中文社区软件源列表说明
       - stretch, sid
       - 是
       - N/A
-      - `tracker <https://tracker.debian.org/pkg/krita>`_; `NEW <https://ftp-master.debian.org/new/krita_1:3.0.1+dfsg-1.html>`_
+      - `krita tracker <https://tracker.debian.org/pkg/krita>`_; `NEW <https://ftp-master.debian.org/new/krita_1:3.0.1+dfsg-1.html>`_
     * - ``qtox``
       - QTox
       - 是
@@ -258,6 +258,15 @@ Debian 中文社区软件源列表说明
 .. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
 .. _travis-ci-package-debiancn-keyring: https://travis-ci.org/debiancn/debiancn-keyring
 
+向社区源提交一个软件包
+------------------------------------
+
+如果您发现了一个适合 Debian 但无法向官方源提交的软件，您可以考虑将其加入我们的社区软件源。
+
+* 如果这个软件是闭源软件，请直接在 issue 中提交信息并附带 ``.deb`` 包下载链接；
+* 如果这个软件是开源软件，推荐使用 Git 管理打包内容 [#Git1]_ 并在 issue 中附上相关信息。其打包 Git 仓库将作为 repo 项目的子项目并在 repo 项目更新时触发自动打包。
+
+.. [#Git1] 您可以参考本项目内的各个软件的打包实例，或者访问 https://anonscm.debian.org/git/ 页面参考官方所有使用 Git 管理打包的源代码仓库。
 
 缩略词解释
 -----------------
