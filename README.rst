@@ -137,13 +137,6 @@ Debian 中文社区软件源列表说明
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
-    * - ``fortune-zh``
-      - Chinese data files for fortune
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      - `fortune-zh tracker <https://tracker.debian.org/pkg/fortune-zh>`_
     * - ``libpng12``
       - PNG Library (v1.2)
       - 是
@@ -221,13 +214,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
-    * - ``krita``
-      - Krita 3.x
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      - `krita tracker <https://tracker.debian.org/pkg/krita>`_; `NEW <https://ftp-master.debian.org/new/krita_1:3.0.1+dfsg-1.html>`_
     * - ``qtox``
       - QTox
       - 是

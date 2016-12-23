@@ -1,9 +1,6 @@
 [submodule "manpages-zh"]
 	path = manpages-zh
 	url = https://github.com/debiancn/manpages-zh.git
-[submodule "fortune-zh"]
-	path = fortune-zh
-	url = https://github.com/debiancn/fortune-zh.git
 [submodule "libqtelegram-ae"]
 	path = libqtelegram-ae
 	url = https://github.com/debiancn/libqtelegram-aseman-edition.git
@@ -31,9 +28,6 @@
 [submodule "vc"]
 	path = vc
 	url = https://github.com/hosiet/vc.git
-[submodule "krita"]
-	path = krita
-	url = https://github.com/hosiet/krita.git
 [submodule "debiancn-keyring"]
 	path = debiancn-keyring
 	url = https://github.com/debiancn/debiancn-keyring.git
