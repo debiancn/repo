@@ -19,7 +19,7 @@ Testing / Unstable 不稳定版用户
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main\ndeb [arch=amd64] http://repo.debiancn.org/ experimental main" > /etc/apt/sources.list.d/debiancn.list;``
-2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20160915_all.deb -O /tmp/debiancn-keyring.deb;``
+2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;``
 3. ``apt install /tmp/debiancn-keyring.deb;``
 4. ``apt update;``
 
@@ -29,7 +29,7 @@ Jessie 稳定版用户
 ~~~~~~~~~~~~~~~~~~
 
 1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ stable-experimental main" > /etc/apt/sources.list.d/debiancn.list;``
-2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20160915_all.deb -O /tmp/debiancn-keyring.deb;``
+2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;``
 3. ``dpkg -i /tmp/debiancn-keyring.deb && apt-get install -f;``
 4. ``apt update;``
 
