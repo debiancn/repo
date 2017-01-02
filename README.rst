@@ -10,28 +10,25 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 
 软件源地址：http://repo.debiancn.org
 
-为维护简易起见，社区软件源暂时仅提供 amd64 架构的软件，且不提供源码包。
+为维护简易起见，社区软件源暂时仅提供 amd64 架构的软件。
+有少部分软件同时提供源码包（使用 `deb-src` 启用）。
 某些使用 Git 管理的软件可以在本仓库内找到对应的源代码。
 
 要开始使用社区软件源，请遵照以下步骤进行操作，所有命令请使用超级用户权限执行：
 
-Testing / Unstable 不稳定版用户
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+启用社区源的命令
+~~~~~~~~~~~~~~~~~~~
 
-1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main\ndeb [arch=amd64] http://repo.debiancn.org/ experimental main" > /etc/apt/sources.list.d/debiancn.list;``
+1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;``
 2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;``
 3. ``apt install /tmp/debiancn-keyring.deb;``
 4. ``apt update;``
 
-这样将会启用社区源的 ``unstable`` 和 ``experimental`` 仓库，从而可以使用大多数社区源中的软件包。
+**注意** 以上命令适合`unstable / sid`用户。您可以自行替换`unstable`为您使用的发行代号。目前社区源可以使用以下代号：
 
-Jessie 稳定版用户
-~~~~~~~~~~~~~~~~~~
-
-1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ stable-experimental main" > /etc/apt/sources.list.d/debiancn.list;``
-2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;``
-3. ``dpkg -i /tmp/debiancn-keyring.deb && apt-get install -f;``
-4. ``apt update;``
+* `unstable`, `sid` （效果相同）
+* `testing`, `stretch` （stretch 发布以前效果相同）
+* `jessie`, `stable` （stretch 发布以前效果相同）
 
 彻底移除社区软件源
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -109,13 +106,6 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
-    * - ``manpages-zh``
-      - Chinese Man Pages
-      - 是
-      - stretch, sid
-      - 是
-      - |travis-ci-package-manpages-zh|_
-      - `manpages-zh tracker <https://tracker.debian.org/pkg/manpages-zh>`_
     * - ``deepin-menu``
       - Deepin Menu Service
       - 是
@@ -237,8 +227,6 @@ Debian 中文社区软件源列表说明
       -
 
 
-.. |travis-ci-package-manpages-zh| image:: https://travis-ci.org/debiancn/manpages-zh.svg?branch=debian
-.. _travis-ci-package-manpages-zh: https://travis-ci.org/debiancn/manpages-zh
 .. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
 .. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
 .. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
