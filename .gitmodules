@@ -1,6 +1,3 @@
-[submodule "manpages-zh"]
-	path = manpages-zh
-	url = https://github.com/debiancn/manpages-zh.git
 [submodule "libqtelegram-ae"]
 	path = libqtelegram-ae
 	url = https://github.com/debiancn/libqtelegram-aseman-edition.git
