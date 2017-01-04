@@ -134,6 +134,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - ``deepin-tool-kit``
+      - Deepin Tool Kit
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - ``deepin-terminal``
       - Deepin Terminal
       - 是

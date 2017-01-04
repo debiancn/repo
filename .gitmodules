@@ -31,3 +31,6 @@
 [submodule "deepin-gettext-tools"]
 	path = deepin-gettext-tools
 	url = https://github.com/debiancn/deepin-gettext-tools.git
+[submodule "deepin-tool-kit"]
+	path = deepin-tool-kit
+	url = https://github.com/debiancn/deepin-tool-kit
