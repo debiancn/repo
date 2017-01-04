@@ -78,8 +78,22 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - ``atom``
+      - Atom Editor
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
     * - ``code``
       - Visual Studio Code
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``sublime-text-dev``
+      - Sublime Text
       - 否
       - stretch, sid
       - N/A
