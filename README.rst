@@ -71,11 +71,39 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - ``chrome-remote-desktop``
+      - Chrome Remote Desktop
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
     * - ``wps-office``
       - Kingsoft WPS Office
       - 否
       - stretch, sid
       - N/A
+      - N/A
+      -
+    * - ``sogoupinyin``
+      - Sogou Pinyin IM
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      - 经过重新封包修改
+    * - ``brackets``
+      - OSS Editor for web design
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
+    * - ``bearychat``
+      - BearyChat working communicator
+      - ?
+      - stretch, sid
+      - 否
       - N/A
       -
     * - ``atom``
@@ -108,6 +136,27 @@ Debian 中文社区软件源列表说明
       -
     * - ``netease-cloud-music``
       - NetEase Cloud Music Client
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``skypeforlinux``
+      - Skype for Linux
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``oracle-java8-jdk``
+      - Oracle Java Development Kit
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
+    * - ``foxitreader``
+      - Foxit PDF Reader
       - 否
       - stretch, sid
       - N/A
