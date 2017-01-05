@@ -190,6 +190,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - ``deepin-qt5integration``
+      - Deepin Qt5 integration
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - ``deepin-terminal``
       - Deepin Terminal
       - 是
@@ -253,13 +260,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - ``shadowsocks-libev``
-      - Shadowsocks libev port
-      - 是
-      - jessie
-      - 是
-      - N/A
-      - `ss-libev tracker <https://tracker.debian.org/pkg/shadowsocks-libev>`_
     * - ``goldendict``
       - Goldendict (Qt5 version)
       - 是
@@ -274,6 +274,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
+    * - ``vi``
+      - Traditional Vi
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - ``qtox``
       - QTox
       - 是

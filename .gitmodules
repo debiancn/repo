@@ -34,3 +34,6 @@
 [submodule "deepin-tool-kit"]
 	path = deepin-tool-kit
 	url = https://github.com/debiancn/deepin-tool-kit
+[submodule "deepin-qt5integration"]
+	path = deepin-qt5integration
+	url = https://github.com/debiancn/deepin-qt5integration
