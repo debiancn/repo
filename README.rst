@@ -9,9 +9,13 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 其目的之一是改进 Debian 中文用户在 Debian 系统上的使用体验。
 
 软件源地址：http://repo.debiancn.org
+软件源镜像站点请见 `Issue #60`_
+
+.. _`Issue #60`: https://github.com/debiancn/repo/issues/60
 
 为维护简易起见，社区软件源暂时仅提供 amd64 架构的软件。
 有少部分软件同时提供源码包（使用 `deb-src` 启用）。
+有极少量软件提供 i386 架构软件。
 某些使用 Git 管理的软件可以在本仓库内找到对应的源代码。
 
 要开始使用社区软件源，请遵照以下步骤进行操作，所有命令请使用超级用户权限执行：
@@ -20,13 +24,13 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~
 ::
 
-  1. printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
-  2. wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
-  3. apt install /tmp/debiancn-keyring.deb;
-  4. apt update;
+  printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
+  wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
+  apt install /tmp/debiancn-keyring.deb;
+  apt update;
 
 
-**注意** 以上命令适合`unstable / sid`用户。您可以自行替换`unstable`为您使用的发行代号。目前社区源可以使用以下代号：
+**注意** 以上命令适合``unstable/sid``用户。您可以自行替换``unstable``为您使用的发行代号。目前社区源可以使用以下代号：
 
 * `unstable`, `sid` （效果相同）
 * `testing`, `stretch` （stretch 发布以前效果相同）
