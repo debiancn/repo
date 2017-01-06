@@ -18,11 +18,13 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 
 启用社区源的命令
 ~~~~~~~~~~~~~~~~~~~
+::
 
-1. ``printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;``
-2. ``wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;``
-3. ``apt install /tmp/debiancn-keyring.deb;``
-4. ``apt update;``
+  1. printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
+  2. wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
+  3. apt install /tmp/debiancn-keyring.deb;
+  4. apt update;
+
 
 **注意** 以上命令适合`unstable / sid`用户。您可以自行替换`unstable`为您使用的发行代号。目前社区源可以使用以下代号：
 
@@ -57,245 +59,245 @@ Debian 中文社区软件源列表说明
       - **Git 管理？**
       - **持续集成**
       - **备注**
-    * - ``debiancn-keyring``
+    * - debiancn-keyring
       - DebianCN Repo Keyring
       - 是
       - jessie, stretch, sid
       - 是
       - |travis-ci-package-debiancn-keyring|_
       -
-    * - ``chrome``
+    * - chrome
       - Google Chrome
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``chrome-remote-desktop``
+    * - chrome-remote-desktop
       - Chrome Remote Desktop
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``wps-office``
+    * - wps-office
       - Kingsoft WPS Office
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``sogoupinyin``
+    * - sogoupinyin
       - Sogou Pinyin IM
       - 否
       - stretch, sid
       - N/A
       - N/A
       - 经过重新封包修改
-    * - ``brackets``
+    * - brackets
       - OSS Editor for web design
       - 是
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``bearychat``
+    * - bearychat
       - BearyChat working communicator
       - ?
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``atom``
+    * - atom
       - Atom Editor
       - 是
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``code``
+    * - code
       - Visual Studio Code
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``sublime-text-dev``
+    * - sublime-text-dev
       - Sublime Text
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``telegram``
+    * - telegram
       - Telegram Desktop
       - 是
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``netease-cloud-music``
+    * - netease-cloud-music
       - NetEase Cloud Music Client
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``skypeforlinux``
+    * - skypeforlinux
       - Skype for Linux
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``oracle-java8-jdk``
+    * - oracle-java8-jdk
       - Oracle Java Development Kit
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``foxitreader``
+    * - foxitreader
       - Foxit PDF Reader
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``haroopad``
+    * - haroopad
       - Haroopad Document Processor
       - 否
       - stretch, sid
       - N/A
       - N/A
       -
-    * - ``deepin-menu``
+    * - deepin-menu
       - Deepin Menu Service
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``deepin-gettext-tools``
+    * - deepin-gettext-tools
       - Deepin gettext wrapper
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``deepin-tool-kit``
+    * - deepin-tool-kit
       - Deepin Tool Kit
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``deepin-qt5integration``
+    * - deepin-qt5integration
       - Deepin Qt5 integration
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``deepin-terminal``
+    * - deepin-terminal
       - Deepin Terminal
       - 是
       - stretch, sid
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
-    * - ``libpng12``
+    * - libpng12
       - PNG Library (v1.2)
       - 是
       - stretch, sid
       - 否
       - N/A
       - `libpng tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
-    * - ``obs-studio``
+    * - obs-studio
       - Open Broadcasting System
       - 是
       - jessie
       - 是
       - N/A
       - `obs tracker <https://tracker.debian.org/pkg/obs-studio>`_
-    * - ``cutegram``
+    * - cutegram
       - Cutegram
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``asemantools``
+    * - asemantools
       - Aseman Tools for Qt and Qml
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``telegramqml``
+    * - telegramqml
       - Telegram API Tools
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``libqtelegram-ae``
+    * - libqtelegram-ae
       - Libqtelegram Aseman Edition
       - 是
       - stretch, sid
       - 是
       - |travis-ci-package-libqtelegram-ae|_
       -
-    * - ``shadowsocks-qt5``
+    * - shadowsocks-qt5
       - Shadowsocks client in Qt5
       - 是
       - jessie, stretch, sid
       - 是
       - N/A
       -
-    * - ``libqtshadowsocks``
+    * - libqtshadowsocks
       - libqtshadowsocks
       - 是
       - jessie, stretch, sid
       - 是
       - N/A
       -
-    * - ``goldendict``
+    * - goldendict
       - Goldendict (Qt5 version)
       - 是
       - stretch, sid
       - 是
       - N/A
       - `goldendict tracker <https://tracker.debian.org/pkg/goldendict>`_
-    * - ``vc``
+    * - vc
       - VC C++ library
       - 是
       - stretch, sid
       - 是
       - N/A
       - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
-    * - ``vi``
+    * - vi
       - Traditional Vi
       - 是
       - stretch, sid
       - 是
       - N/A
       -
-    * - ``qtox``
+    * - qtox
       - QTox
       - 是
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``i3-gaps``
+    * - i3-gaps
       - i3 Unofficial Fork
       - 是
       - stretch, sid
       - 否
       - N/A
       -
-    * - ``xfce4-kbdleds-plugin``
+    * - xfce4-kbdleds-plugin
       - Xfce panel keyboard LEDs plugin
       - 是
       - stretch, sid
