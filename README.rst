@@ -36,10 +36,11 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 如果您需要彻底移除社区软件源，请按以下步骤操作：
+::
 
-1. ``apt purge debiancn-keyring;``
-2. ``rm -f /etc/apt/sources.list.d/debiancn.list;``
-3. ``apt update;``
+  1. ``apt purge debiancn-keyring;``
+  2. ``rm -f /etc/apt/sources.list.d/debiancn.list;``
+  3. ``apt update;``
 
 Debian 中文社区软件源列表说明
 -----------------------------------
