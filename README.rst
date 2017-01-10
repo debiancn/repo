@@ -218,6 +218,7 @@ Debian 中文社区软件源列表说明
       - 是
       - stretch, sid
       - 否
+      - N/A
       -
     * - libpng12
       - PNG Library (v1.2)
