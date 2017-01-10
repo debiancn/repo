@@ -211,6 +211,12 @@ Debian 中文社区软件源列表说明
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
+    * - pdnsd
+      - Proxy DNS Server
+      - 是
+      - stretch, sid
+      - 否
+      -
     * - libpng12
       - PNG Library (v1.2)
       - 是
