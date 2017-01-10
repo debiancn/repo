@@ -8,7 +8,7 @@ Debian 中文社区软件源使用说明
 Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库的一个补充，
 其目的之一是改进 Debian 中文用户在 Debian 系统上的使用体验。
 
-软件源地址：http://repo.debiancn.org
+软件源地址：https://repo.debiancn.org
 软件源镜像站点请见 `Issue #60`_
 
 .. _`Issue #60`: https://github.com/debiancn/repo/issues/60
@@ -24,8 +24,10 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~
 ::
 
-  printf "deb [arch=amd64] http://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
-  wget http://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
+  sudo apt update;
+  sudo apt install apt-transport-https;
+  printf "deb [arch=amd64] https://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
+  wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
   apt install /tmp/debiancn-keyring.deb;
   apt update;
 
