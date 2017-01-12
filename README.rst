@@ -139,8 +139,8 @@ Debian 中文社区软件源列表说明
     * - telegram
       - Telegram Desktop
       - 是
-      - stretch, sid
-      - 否
+      - jessie, stretch, sid
+      - 是
       - N/A
       -
     * - netease-cloud-music

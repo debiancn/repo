@@ -37,3 +37,6 @@
 [submodule "deepin-qt5integration"]
 	path = deepin-qt5integration
 	url = https://github.com/debiancn/deepin-qt5integration
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/debiancn/telegram
