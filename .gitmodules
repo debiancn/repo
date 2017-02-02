@@ -43,3 +43,6 @@
 [submodule "wine-gecko-2.47"]
 	path = wine-gecko-2.47
 	url = https://github.com/debiancn/wine-gecko-2.47
+[submodule "wine-staging"]
+	path = wine-staging
+	url = https://github.com/debiancn/wine-staging
