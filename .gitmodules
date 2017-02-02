@@ -40,3 +40,6 @@
 [submodule "telegram"]
 	path = telegram
 	url = https://github.com/debiancn/telegram
+[submodule "wine-gecko-2.47"]
+	path = wine-gecko-2.47
+	url = https://github.com/debiancn/wine-gecko-2.47

@@ -227,6 +227,20 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       - `libpng tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
+    * - wine-staging
+      - Wine Staging version
+      - 是
+      - sid
+      - 是
+      - N/A
+      -
+    * - wine-gecko-2.47
+      - Wine Gecko Engine for wine 1.9.19+
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - obs-studio
       - Open Broadcasting System
       - 是
