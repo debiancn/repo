@@ -26,7 +26,7 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 
   sudo apt update;
   sudo apt install apt-transport-https;
-  printf "deb [arch=amd64] https://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
+  printf "deb https://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
   wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
   apt install /tmp/debiancn-keyring.deb;
   apt update;
