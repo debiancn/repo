@@ -46,3 +46,6 @@
 [submodule "wine-staging"]
 	path = wine-staging
 	url = https://github.com/debiancn/wine-staging
+[submodule "snipaste"]
+	path = snipaste
+	url = https://github.com/debiancn/snipaste

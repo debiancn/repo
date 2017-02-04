@@ -136,6 +136,13 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - snipaste
+      - Snipping and Pasting tool
+      - 否
+      - stretch, sid
+      - N/A
+      - N/A
+      -
     * - telegram
       - Telegram Desktop
       - 是
