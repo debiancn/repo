@@ -144,9 +144,16 @@ Debian 中文社区软件源列表说明
       - N/A
       -
     * - telegram
-      - Telegram Desktop
+      - Telegram Desktop (Binary version)
       - 是
       - jessie, stretch, sid
+      - 是
+      - N/A
+      -
+    * - telegram-desktop
+      - Telegram Desktop (built from source)
+      - 是
+      - stretch, sid
       - 是
       - N/A
       -
