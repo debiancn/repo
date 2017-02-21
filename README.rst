@@ -192,6 +192,13 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - scp-foundation-doc-cn
+      - the SCP Foundation document (CN Branch)
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - deepin-menu
       - Deepin Menu Service
       - 是

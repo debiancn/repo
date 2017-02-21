@@ -49,3 +49,6 @@
 [submodule "telegram-desktop"]
 	path = telegram-desktop
 	url = https://github.com/mymedia2/tdesktop
+[submodule "scp-foundation-doc-cn"]
+	path = scp-foundation-doc-cn
+	url = https://github.com/hosiet/scp-foundation-doc-cn
