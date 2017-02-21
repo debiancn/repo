@@ -73,6 +73,13 @@ Debian 中文社区软件源列表说明
       - 是
       - |travis-ci-package-debiancn-keyring|_
       -
+    * - virtualbox
+      - Virtualbox x86 virtualization solution
+      - 是
+      - stretch
+      - 否
+      - N/A
+      - 从 sid 移植
     * - chrome
       - Google Chrome
       - 否
