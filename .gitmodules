@@ -37,9 +37,6 @@
 [submodule "deepin-qt5integration"]
 	path = deepin-qt5integration
 	url = https://github.com/debiancn/deepin-qt5integration
-[submodule "telegram"]
-	path = telegram
-	url = https://github.com/debiancn/telegram
 [submodule "wine-gecko-2.47"]
 	path = wine-gecko-2.47
 	url = https://github.com/debiancn/wine-gecko-2.47
@@ -49,3 +46,6 @@
 [submodule "snipaste"]
 	path = snipaste
 	url = https://github.com/debiancn/snipaste
+[submodule "telegram-desktop"]
+	path = telegram-desktop
+	url = https://github.com/mymedia2/tdesktop
