@@ -1,0 +1,10 @@
+[debiancn]
+fqdn = repo.debiancn.org
+incoming = /data/repo/packages/incoming
+method = scp
+allow_unsigned_uploads = 1
+allow_dcut = 0
+scp_compress = 1
+ssh_config_options = Port=5048
+# Allow uploads for UNRELEASED packages
+allowed_distributions = .*
