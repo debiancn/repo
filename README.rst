@@ -164,6 +164,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - unzip-iconv
+      - Unzip CLI tool with iconv support
+      - 是
+      - stretch, sid
+      - 否
+      - N/A
+      -
     * - netease-cloud-music
       - NetEase Cloud Music Client
       - 否
