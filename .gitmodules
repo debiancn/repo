@@ -58,3 +58,6 @@
 [submodule "adapta-gtk-theme"]
 	path = adapta-gtk-theme
 	url = https://github.com/hosiet/adapta
+[submodule "ydcv"]
+	path = ydcv
+	url = https://github.com/hosiet/ydcv
