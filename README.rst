@@ -262,6 +262,20 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - python-xpybutil
+      - Abstraction over X Python Binding
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
+    * - python3-dae
+      - Deepin App Engine
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - pdnsd
       - Proxy DNS Server
       - 是

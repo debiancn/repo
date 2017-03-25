@@ -64,3 +64,9 @@
 [submodule "jieba"]
 	path = jieba
 	url = https://github.com/hosiet/jieba
+[submodule "python-xpybutil"]
+	path = python-xpybutil
+	url = https://github.com/hosiet/xpybutil
+[submodule "dae"]
+	path = dae
+	url = https://github.com/hosiet/dae
