@@ -61,3 +61,6 @@
 [submodule "ydcv"]
 	path = ydcv
 	url = https://github.com/hosiet/ydcv
+[submodule "jieba"]
+	path = jieba
+	url = https://github.com/hosiet/jieba

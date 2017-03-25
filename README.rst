@@ -255,6 +255,13 @@ Debian 中文社区软件源列表说明
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
+    * - jieba
+      - Jieba Chinese text segmentation library
+      - 是
+      - jessie, stretch, sid
+      - 是
+      - N/A
+      -
     * - pdnsd
       - Proxy DNS Server
       - 是
