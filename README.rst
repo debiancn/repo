@@ -255,6 +255,13 @@ Debian 中文社区软件源列表说明
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
+    * - ttyd
+      - Web terminal sharing tool
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - jieba
       - Jieba Chinese text segmentation library
       - 是

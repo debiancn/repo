@@ -70,3 +70,6 @@
 [submodule "dae"]
 	path = dae
 	url = https://github.com/hosiet/dae
+[submodule "ttyd"]
+	path = ttyd
+	url = https://github.com/hosiet/ttyd
