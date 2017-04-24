@@ -73,3 +73,6 @@
 [submodule "ttyd"]
 	path = ttyd
 	url = https://github.com/hosiet/ttyd
+[submodule "bcloud"]
+	path = bcloud
+	url = https://github.com/debiancn/bcloud
