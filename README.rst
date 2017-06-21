@@ -80,7 +80,7 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       - 从 sid 移植
-    * - chrome
+    * - google-chrome-stable
       - Google Chrome
       - 否
       - stretch, sid
