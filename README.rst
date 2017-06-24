@@ -164,6 +164,13 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - electronic-wechat
+      - WeChat client for macOS and Linux
+      - 是
+      - stretch, sid
+      - N/A
+      - N/A
+      - 采用上游binary版本
     * - fgrun
       - Flightgear Launch Control
       - 是
