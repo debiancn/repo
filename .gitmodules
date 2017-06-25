@@ -76,3 +76,6 @@
 [submodule "bcloud"]
 	path = bcloud
 	url = https://github.com/debiancn/bcloud
+[submodule "electronic-wechat"]
+	path = electronic-wechat
+	url = https://github.com/debiancn/electronic-wechat
