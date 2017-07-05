@@ -79,3 +79,6 @@
 [submodule "electronic-wechat"]
 	path = electronic-wechat
 	url = https://github.com/debiancn/electronic-wechat
+[submodule "copyq"]
+	path = copyq
+	url = https://github.com/debiancn/copyq

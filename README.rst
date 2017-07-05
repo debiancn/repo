@@ -193,6 +193,13 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       -
+    * - copyq
+      - Advanced clipboard manager
+      - 是
+      - buster
+      - 是 
+      - N/A
+      -
     * - netease-cloud-music
       - NetEase Cloud Music Client
       - 否
