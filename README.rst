@@ -242,6 +242,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - rsync-huai
+      - Rsync with huai extension
+      - 是
+      - jessie
+      - 是
+      - N/A
+      -
     * - deepin-menu
       - Deepin Menu Service
       - 是

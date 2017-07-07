@@ -82,3 +82,6 @@
 [submodule "copyq"]
 	path = copyq
 	url = https://github.com/debiancn/copyq
+[submodule "rsync-huai"]
+	path = rsync-huai
+	url = https://github.com/ustclug/rsync
