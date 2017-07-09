@@ -448,7 +448,11 @@ Debian 中文社区软件源列表说明
 * 如果这个软件是闭源软件，请直接在 issue 中提交信息并附带 ``.deb`` 包下载链接；
 * 如果这个软件是开源软件，推荐使用 Git 管理打包内容 [#Git1]_ 并在 issue 中附上相关信息。其打包 Git 仓库将作为 repo 项目的子项目。自动打包功能尚未完成。
 
-有服务器帐号的用户可以使用 ``dput`` 工具上传软件包。repo 项目下存放了示例配置文件。
+有服务器帐号的用户，请将 ``.deb`` 二进制包或 ``.dsc`` 源码包使用 SFTP 上传至服务器，服务器将定时处理上传队列：
+
+* ``scp ./mypackage.deb myusername@hz1.debiancn.org:/srv/repo/upload/target_codename/``
+
+将其中的 ``target_codename`` 替换为目标版本代号（jessie, stretch, buster）。unstable 与 buster 共用仓库。
 
 .. [#Git1] 您可以参考本项目内的各个软件的打包实例，或者访问 https://anonscm.debian.org/git/ 页面参考官方所有使用 Git 管理打包的源代码仓库。
 
