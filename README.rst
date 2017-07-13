@@ -410,6 +410,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - master-pdf-editor
+      - Multifunctional PDF Editor
+      - 否
+      - stretch, buster
+      - 否
+      - N/A
+      -
     * - qtox
       - QTox
       - 是
