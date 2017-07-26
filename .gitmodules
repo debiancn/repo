@@ -85,3 +85,6 @@
 [submodule "rsync-huai"]
 	path = rsync-huai
 	url = https://github.com/ustclug/rsync
+[submodule "dtkcore"]
+	path = dtkcore
+	url = https://github.com/YanhaoMo/dtkcore.git
