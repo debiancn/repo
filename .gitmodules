@@ -88,3 +88,6 @@
 [submodule "dtkcore"]
 	path = dtkcore
 	url = https://github.com/YanhaoMo/dtkcore.git
+[submodule "dtkwidget"]
+	path = dtkwidget
+	url = https://github.com/YanhaoMo/dtkwidget.git
