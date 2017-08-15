@@ -124,7 +124,7 @@ Debian 中文社区软件源列表说明
       - N/A
       - 经过重新封包修改
     * - brackets
-      - OSS Editor for web design
+      - Editor for web design
       - 是
       - stretch, sid
       - 否
