@@ -95,6 +95,13 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - winetricks-zh
+      - Winetricks for Chinese software
+      - 是
+      - stretch, buster
+      - 是
+      - N/A
+      -
     * - wps-office
       - Kingsoft WPS Office
       - 否
@@ -182,7 +189,7 @@ Debian 中文社区软件源列表说明
     * - telegram-desktop
       - Telegram Desktop (built from source)
       - 是
-      - stretch, sid
+      - stretch
       - 是
       - N/A
       -
@@ -203,7 +210,7 @@ Debian 中文社区软件源列表说明
     * - netease-cloud-music
       - NetEase Cloud Music Client
       - 否
-      - stretch, sid
+      - stretch, buster
       - N/A
       - N/A
       -
@@ -251,13 +258,6 @@ Debian 中文社区软件源列表说明
       -
     * - deepin-menu
       - Deepin Menu Service
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      -
-    * - deepin-gettext-tools
-      - Deepin gettext wrapper
       - 是
       - stretch, sid
       - 是
@@ -347,34 +347,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       - `obs tracker <https://tracker.debian.org/pkg/obs-studio>`_
-    * - cutegram
-      - Cutegram
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      -
-    * - asemantools
-      - Aseman Tools for Qt and Qml
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      -
-    * - telegramqml
-      - Telegram API Tools
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      -
-    * - libqtelegram-ae
-      - Libqtelegram Aseman Edition
-      - 是
-      - stretch, sid
-      - 是
-      - |travis-ci-package-libqtelegram-ae|_
-      -
     * - shadowsocks-qt5
       - Shadowsocks client in Qt5
       - 是
