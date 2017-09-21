@@ -238,7 +238,7 @@ Debian 中文社区软件源列表说明
     * - rsync-huai
       - Rsync with huai extension
       - 是
-      - jessie
+      - jessie, stretch
       - 是
       - N/A
       -
