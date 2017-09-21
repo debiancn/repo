@@ -1,6 +1,3 @@
-[submodule "goldendict"]
-	path = goldendict
-	url = https://github.com/hosiet/goldendict
 [submodule "deepin-terminal"]
 	path = deepin-terminal
 	url = https://github.com/hosiet/deepin-terminal.git
@@ -64,9 +61,6 @@
 [submodule "electronic-wechat"]
 	path = electronic-wechat
 	url = https://github.com/debiancn/electronic-wechat
-[submodule "copyq"]
-	path = copyq
-	url = https://github.com/debiancn/copyq
 [submodule "rsync-huai"]
 	path = rsync-huai
 	url = https://github.com/ustclug/rsync

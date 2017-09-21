@@ -200,13 +200,6 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       -
-    * - copyq
-      - Advanced clipboard manager
-      - 是
-      - buster
-      - 是 
-      - N/A
-      -
     * - netease-cloud-music
       - NetEase Cloud Music Client
       - 否
@@ -361,17 +354,10 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - goldendict
-      - Goldendict (Qt5 version)
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      - `goldendict tracker <https://tracker.debian.org/pkg/goldendict>`_
     * - vc
       - VC C++ library
       - 是
-      - stretch, sid
+      - stretch
       - 是
       - N/A
       - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
