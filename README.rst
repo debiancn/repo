@@ -13,41 +13,56 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 
 .. _`Issue #60`: https://github.com/debiancn/repo/issues/60
 
-为维护简易起见，社区软件源暂时仅提供 amd64 架构的软件。
-有少部分软件同时提供源码包（使用 `deb-src` 启用）。
-有极少量软件提供 i386 架构软件。
+为维护简易起见，社区软件源暂时优先提供 ``amd64`` 架构的软件。
+有少部分软件同时提供源码包（使用 ``deb-src`` 启用）。
+少量软件提供 ``i386`` 架构。
+如果您没有找到所需的架构，请在 issue 中提交请求，志愿者将尽量满足需求。
 某些使用 Git 管理的软件可以在本仓库内找到对应的源代码。
 
-要开始使用社区软件源，请遵照以下步骤进行操作，所有命令请使用超级用户权限执行：
+要开始使用社区软件源，请遵照以下步骤进行操作：
 
 启用社区源的命令
 ~~~~~~~~~~~~~~~~~~~
-::
+.. code:: bash
+
+  echo "deb https://repo.debiancn.org/ testing main" | sudo tee /etc/apt/sources.list.d/debiancn.list;
+  wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
+  sudo apt install /tmp/debiancn-keyring.deb;
+  sudo apt update;
+  rm /tmp/debiancn-keyring.deb;
+
+**注意：** 以上命令适合 ``testing/buster`` 用户。您可以自行替换 ``testing`` 为您使用的发行代号。目前社区源可以使用以下代号：
+
+* ``unstable``, ``sid`` （效果相同，实际指向 ``testing``）
+* ``testing``, ``buster`` （``buster`` 发布以前效果相同）
+* ``stretch``, ``stable`` （``buster`` 发布以前效果相同）
+* ``jessie``, ``oldstable`` （``buster`` 发布以前效果相同）
+
+使用 ``stretch`` 及以下版本，需安装 ``apt-transport-https``，``testing`` 及以上版本不需要。命令如下：
+
+.. code:: bash
 
   sudo apt update;
   sudo apt install apt-transport-https;
-  printf "deb https://repo.debiancn.org/ unstable main" > /etc/apt/sources.list.d/debiancn.list;
-  wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
-  apt install /tmp/debiancn-keyring.deb;
-  apt update;
 
+目前暂无专用于 ``sid`` 的仓库，实际指向 ``testing``。若发行代号填写 ``unstable`` 或 ``sid``，可能会遇到以下错误：
 
-**注意** 以上命令适合``unstable/sid``用户。您可以自行替换``unstable``为您使用的发行代号。目前社区源可以使用以下代号：
+::
 
-* `unstable`, `sid` （效果相同）
-* `testing`, `buster` （buster 发布以前效果相同）
-* `stretch`, `stable` （buster 发布以前效果相同）
-* `jessie`, `oldstable` （buster 发布以前效果相同）
+  W: 冲突的发行版：https://repo.debiancn.org unstable InRelease (期望 unstable 但得到 buster) 
+
+将发行代号改为 ``testing`` 或 ``buster`` 即可。 
 
 彻底移除社区软件源
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 如果您需要彻底移除社区软件源，请按以下步骤操作：
-::
 
-  1. apt purge debiancn-keyring;
-  2. rm -f /etc/apt/sources.list.d/debiancn.list;
-  3. apt update;
+.. code:: bash
+
+  sudo apt purge debiancn-keyring;
+  sudo rm -f /etc/apt/sources.list.d/debiancn.list;
+  sudo apt update;
 
 Debian 中文社区软件源列表说明
 -----------------------------------
