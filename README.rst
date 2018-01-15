@@ -124,6 +124,13 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
+    * - lilydict
+      - lilydict online directory
+      - 是
+      - stretch, buster
+      - 是
+      - N/A
+      -
     * - bcloud
       - Baidu Yun Client
       - 是

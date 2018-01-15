@@ -64,3 +64,6 @@
 [submodule "dtkwidget"]
 	path = dtkwidget
 	url = https://github.com/YanhaoMo/dtkwidget.git
+[submodule "lilydict"]
+	path = lilydict
+	url = https://github.com/debiancn/lilydict
