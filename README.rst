@@ -106,7 +106,7 @@ Debian 中文社区软件源列表说明
     * - flameshot
       - Advanced and ease-to-use screenshot tool
       - 是
-      - stretch, buster
+      - stretch
       - 是
       - N/A
       -
