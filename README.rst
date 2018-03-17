@@ -110,6 +110,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - peek
+      - Simple animated GIF screen recorder with GUI
+      - 是
+      - stretch, buster
+      - 是
+      - N/A
+      -
     * - winetricks-zh
       - Winetricks for Chinese software
       - 是
