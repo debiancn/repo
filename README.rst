@@ -103,13 +103,6 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
-    * - flameshot
-      - Advanced and ease-to-use screenshot tool
-      - 是
-      - stretch
-      - 是
-      - N/A
-      -
     * - peek
       - Simple animated GIF screen recorder with GUI
       - 是
