@@ -302,7 +302,7 @@ Debian 中文社区软件源列表说明
     * - jieba
       - Jieba Chinese text segmentation library
       - 是
-      - jessie, stretch, sid
+      - jessie
       - 是
       - N/A
       -
