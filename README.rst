@@ -306,6 +306,13 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
+    * - vocal
+      - Simple podcast client for the modern desktop
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      -
     * - python-xpybutil
       - Abstraction over X Python Binding
       - 是
