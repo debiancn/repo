@@ -67,3 +67,6 @@
 [submodule "lilydict"]
 	path = lilydict
 	url = https://github.com/debiancn/lilydict
+[submodule "gifski"]
+	path = gifski
+	url = https://github.com/debiancn/gifski

@@ -103,10 +103,10 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
-    * - peek
-      - Simple animated GIF screen recorder with GUI
+    * - gifski
+      - GIF encoder based on libimagequant
       - 是
-      - stretch, buster
+      - buster
       - 是
       - N/A
       -
