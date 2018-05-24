@@ -411,13 +411,6 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       -
-    * - xfce4-kbdleds-plugin
-      - Xfce panel keyboard LEDs plugin
-      - 是
-      - stretch, sid
-      - 否
-      - N/A
-      -
 
 
 .. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
