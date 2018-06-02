@@ -168,7 +168,7 @@ Debian 中文社区软件源列表说明
       -
     * - code
       - Visual Studio Code
-      - 否
+      - 是
       - stretch, sid
       - N/A
       - N/A
@@ -201,13 +201,6 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       - `Tracker <https://tracker.debian.org/pkg/fgrun>`_
-    * - telegram-desktop
-      - Telegram Desktop (built from source)
-      - 是
-      - stretch
-      - 是
-      - N/A
-      -
     * - unzip-iconv
       - Unzip CLI tool with iconv support
       - 是
