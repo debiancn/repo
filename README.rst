@@ -159,6 +159,13 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       -
+    * - latte-dock
+      - Dock based on plasma frameworks
+      - 是
+      - sid
+      - 是
+      - N/A
+      -
     * - atom
       - Atom Editor
       - 是
