@@ -288,7 +288,7 @@ Debian 中文社区软件源列表说明
     * - deepin-terminal
       - Deepin Terminal
       - 是
-      - stretch, sid
+      - stretch
       - 是
       - |travis-ci-package-deepin-terminal|_
       -
