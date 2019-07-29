@@ -411,8 +411,21 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       -
-
-
+    * - mentohust
+      - Opensource substitute of Ruijie and Cernet supplicant
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - orphaned `salsa <https://salsa.debian.org/zouyoo-guest/mentohust>`_
+    * - minieap
+      - Extensible 802.1x client with Ruijie v3/v4 support
+      - 是
+      - stretch, sid
+      - 是
+      - N/A
+      - orphaned `salsa <https://salsa.debian.org/zouyoo-guest/minieap>`_
+      
 .. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
 .. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
 .. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
