@@ -1,42 +1,18 @@
 [submodule "deepin-terminal"]
 	path = deepin-terminal
 	url = https://github.com/hosiet/deepin-terminal.git
-[submodule "shadowsocks-qt5"]
-	path = shadowsocks-qt5
-	url = https://github.com/hosiet/shadowsocks-qt5.git
-[submodule "libqtshadowsocks"]
-	path = libqtshadowsocks
-	url = https://github.com/hosiet/libqtshadowsocks.git
 [submodule "debiancn-keyring"]
 	path = debiancn-keyring
 	url = https://github.com/debiancn/debiancn-keyring.git
-[submodule "deepin-tool-kit"]
-	path = deepin-tool-kit
-	url = https://github.com/debiancn/deepin-tool-kit
 [submodule "deepin-qt5integration"]
 	path = deepin-qt5integration
 	url = https://github.com/debiancn/deepin-qt5integration
 [submodule "wine-gecko-2.47"]
 	path = wine-gecko-2.47
 	url = https://github.com/debiancn/wine-gecko-2.47
-[submodule "wine-staging"]
-	path = wine-staging
-	url = https://github.com/debiancn/wine-staging
 [submodule "snipaste"]
 	path = snipaste
 	url = https://github.com/debiancn/snipaste
-[submodule "telegram-desktop"]
-	path = telegram-desktop
-	url = https://github.com/mymedia2/tdesktop
-[submodule "scp-foundation-doc-cn"]
-	path = scp-foundation-doc-cn
-	url = https://github.com/hosiet/scp-foundation-doc-cn
-[submodule "fgrun"]
-	path = fgrun
-	url = https://github.com/hosiet/fgrun
-[submodule "adapta-gtk-theme"]
-	path = adapta-gtk-theme
-	url = https://github.com/hosiet/adapta
 [submodule "python-xpybutil"]
 	path = python-xpybutil
 	url = https://github.com/hosiet/xpybutil
@@ -46,12 +22,6 @@
 [submodule "ttyd"]
 	path = ttyd
 	url = https://github.com/hosiet/ttyd
-[submodule "bcloud"]
-	path = bcloud
-	url = https://github.com/debiancn/bcloud
-[submodule "electronic-wechat"]
-	path = electronic-wechat
-	url = https://github.com/debiancn/electronic-wechat
 [submodule "rsync-huai"]
 	path = rsync-huai
 	url = https://github.com/ustclug/rsync
