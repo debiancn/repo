@@ -25,25 +25,19 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~
 .. code:: bash
 
-  echo "deb https://repo.debiancn.org/ testing main" | sudo tee /etc/apt/sources.list.d/debiancn.list;
+  echo "deb https://repo.debiancn.org/ bookworm main" | sudo tee /etc/apt/sources.list.d/debiancn.list;
   wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
   sudo apt install /tmp/debiancn-keyring.deb;
   sudo apt update;
   rm /tmp/debiancn-keyring.deb;
 
-**注意：** 以上命令适合 ``testing/buster`` 用户。您可以自行替换 ``testing`` 为您使用的发行代号。目前社区源可以使用以下代号：
+**注意：** 以上命令适合 ``bookworm`` 用户。您可以自行替换 ``bookworm`` 为您使用的发行代号。目前社区源可以使用以下代号：
 
-* ``unstable``, ``sid`` （效果相同，实际指向 ``testing``）
-* ``testing``, ``buster`` （``buster`` 发布以前效果相同）
-* ``stretch``, ``stable`` （``buster`` 发布以前效果相同）
+* ``buster``
+* ``bullseye`` 
+* ``bookworm``
 
-目前暂无专用于 ``sid`` 的仓库，实际指向 ``testing``。若发行代号填写 ``unstable`` 或 ``sid``，可能会遇到以下错误：
-
-::
-
-  W: 冲突的发行版：https://repo.debiancn.org unstable InRelease (期望 unstable 但得到 buster)
-
-将发行代号改为 ``testing`` 或 ``buster`` 即可。
+目前暂无专用于 ``testing`` 和 ``sid`` 的仓库。
 
 彻底移除社区软件源
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +73,7 @@ Debian 中文社区软件源列表说明
       - 是
       - bullseye, buster, sid
       - 是
-      - |travis-ci-package-debiancn-keyring|_
+      -
       -
     * - google-chrome-stable
       - Google Chrome
@@ -172,20 +166,6 @@ Debian 中文社区软件源列表说明
       - N/A
       - N/A
       -
-    * - electronic-wechat
-      - WeChat client for macOS and Linux
-      - 是
-      - stretch, sid
-      - N/A
-      - N/A
-      - 采用上游binary版本
-    * - fgrun
-      - Flightgear Launch Control
-      - 是
-      - stretch
-      - N/A
-      - N/A
-      - `Tracker <https://tracker.debian.org/pkg/fgrun>`_
     * - unzip-iconv
       - Unzip CLI tool with iconv support
       - 是
@@ -197,13 +177,6 @@ Debian 中文社区软件源列表说明
       - NetEase Cloud Music Client
       - 否
       - stretch, buster
-      - N/A
-      - N/A
-      -
-    * - skypeforlinux
-      - Skype for Linux
-      - 否
-      - stretch, sid
       - N/A
       - N/A
       -
@@ -226,13 +199,6 @@ Debian 中文社区软件源列表说明
       - 否
       - stretch, sid
       - N/A
-      - N/A
-      -
-    * - scp-foundation-doc-cn
-      - the SCP Foundation document (CN Branch)
-      - 是
-      - stretch, sid
-      - 是
       - N/A
       -
     * - rsync-huai
@@ -261,7 +227,7 @@ Debian 中文社区软件源列表说明
       - 是
       - stretch
       - 是
-      - |travis-ci-package-deepin-terminal|_
+      -
       -
     * - ttyd
       - Web terminal sharing tool
@@ -305,38 +271,10 @@ Debian 中文社区软件源列表说明
       - 否
       - N/A
       - `libpng tracker <https://tracker.debian.org/pkg/libpng>`_; `RM <https://tracker.debian.org/news/768116>`_
-    * - wine-staging
-      - Wine Staging version
-      - 是
-      - sid
-      - 是
-      - N/A
-      -
     * - wine-gecko-2.47
       - Wine Gecko Engine for wine 1.9.19+
       - 是
       - stretch, sid
-      - 是
-      - N/A
-      -
-    * - obs-studio
-      - Open Broadcasting System
-      - 是
-      - jessie
-      - 是
-      - N/A
-      - `obs tracker <https://tracker.debian.org/pkg/obs-studio>`_
-    * - shadowsocks-qt5
-      - Shadowsocks client in Qt5
-      - 是
-      - jessie, stretch, sid
-      - 是
-      - N/A
-      -
-    * - libqtshadowsocks
-      - libqtshadowsocks
-      - 是
-      - jessie, stretch, sid
       - 是
       - N/A
       -
@@ -362,13 +300,6 @@ Debian 中文社区软件源列表说明
       - N/A
       -
 
-
-.. |travis-ci-package-deepin-terminal| image:: https://travis-ci.org/hosiet/deepin-terminal.svg?branch=master
-.. _travis-ci-package-deepin-terminal: https://travis-ci.org/hosiet/deepin-terminal
-.. |travis-ci-package-debiancn-keyring| image:: https://travis-ci.org/debiancn/debiancn-keyring.svg?branch=master
-.. _travis-ci-package-debiancn-keyring: https://travis-ci.org/debiancn/debiancn-keyring
-.. |travis-ci-package-libqtelegram-ae| image:: https://travis-ci.org/debiancn/libqtelegram-aseman-edition.svg?branch=master
-.. _travis-ci-package-libqtelegram-ae: https://travis-ci.org/debiancn/libqtelegram-aseman-edition
 
 向社区源提交一个软件包
 ------------------------------------
