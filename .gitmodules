@@ -7,9 +7,6 @@
 [submodule "libqtshadowsocks"]
 	path = libqtshadowsocks
 	url = https://github.com/hosiet/libqtshadowsocks.git
-[submodule "vc"]
-	path = vc
-	url = https://github.com/hosiet/vc.git
 [submodule "debiancn-keyring"]
 	path = debiancn-keyring
 	url = https://github.com/debiancn/debiancn-keyring.git

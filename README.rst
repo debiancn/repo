@@ -36,14 +36,6 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 * ``unstable``, ``sid`` （效果相同，实际指向 ``testing``）
 * ``testing``, ``buster`` （``buster`` 发布以前效果相同）
 * ``stretch``, ``stable`` （``buster`` 发布以前效果相同）
-* ``jessie``, ``oldstable`` （``buster`` 发布以前效果相同）
-
-使用 ``stretch`` 及以下版本，需安装 ``apt-transport-https``，``testing`` 及以上版本不需要。命令如下：
-
-.. code:: bash
-
-  sudo apt update;
-  sudo apt install apt-transport-https;
 
 目前暂无专用于 ``sid`` 的仓库，实际指向 ``testing``。若发行代号填写 ``unstable`` 或 ``sid``，可能会遇到以下错误：
 
@@ -85,14 +77,14 @@ Debian 中文社区软件源列表说明
     * - debiancn-keyring
       - DebianCN Repo Keyring
       - 是
-      - jessie, stretch, sid
+      - bullseye, buster, sid
       - 是
       - |travis-ci-package-debiancn-keyring|_
       -
     * - google-chrome-stable
       - Google Chrome
       - 否
-      - stretch, sid
+      - bullseye, buster, sid
       - N/A
       - N/A
       -
@@ -131,13 +123,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - bcloud
-      - Baidu Yun Client
-      - 是
-      - jessie, stretch
-      - 是
-      - N/A
-      -
     * - sogoupinyin
       - Sogou Pinyin IM
       - 否
@@ -164,13 +149,6 @@ Debian 中文社区软件源列表说明
       - 是
       - sid
       - 是
-      - N/A
-      -
-    * - atom
-      - Atom Editor
-      - 是
-      - stretch, sid
-      - 否
       - N/A
       -
     * - code
@@ -271,13 +249,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - deepin-tool-kit
-      - Deepin Tool Kit
-      - 是
-      - stretch, sid
-      - 是
-      - N/A
-      -
     * - deepin-qt5integration
       - Deepin Qt5 integration
       - 是
@@ -369,13 +340,6 @@ Debian 中文社区软件源列表说明
       - 是
       - N/A
       -
-    * - vc
-      - VC C++ library
-      - 是
-      - stretch
-      - 是
-      - N/A
-      - `ubuntu <https://packages.ubuntu.com/source/yakkety/vc>`_
     * - vi
       - Traditional Vi
       - 是
@@ -387,13 +351,6 @@ Debian 中文社区软件源列表说明
       - Multifunctional PDF Editor
       - 否
       - stretch, buster
-      - 否
-      - N/A
-      -
-    * - qtox
-      - QTox
-      - 是
-      - stretch, sid
       - 否
       - N/A
       -
