@@ -33,7 +33,6 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 
 **注意：** 以上命令适合 ``bookworm`` 用户。您可以自行替换 ``bookworm`` 为您使用的发行代号。目前社区源可以使用以下代号：
 
-* ``buster``
 * ``bullseye`` 
 * ``bookworm``
 
