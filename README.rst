@@ -25,7 +25,7 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~
 .. code:: bash
 
-  echo "deb https://repo.debiancn.org/ bookworm main" | sudo tee /etc/apt/sources.list.d/debiancn.list;
+  echo "deb [signed-by=/usr/share/keyrings/debiancn-keyring.gpg] https://repo.debiancn.org/ bookworm main" | sudo tee /etc/apt/sources.list.d/debiancn.list;
   wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20161212_all.deb -O /tmp/debiancn-keyring.deb;
   sudo apt install /tmp/debiancn-keyring.deb;
   sudo apt update;
