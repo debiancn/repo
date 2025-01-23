@@ -25,7 +25,7 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 ~~~~~~~~~~~~~~~~~~~
 .. code:: bash
 
-  rm -fv /etc/apt/sources.list.d/debiancn.list; # 移除旧格式 sources.list 文件
+  sudo rm -fv /etc/apt/sources.list.d/debiancn.list; # 移除旧格式 sources.list 文件
   echo 'Enabled: yes
   Types: deb
   URIs: http://repo.debiancn.org/
