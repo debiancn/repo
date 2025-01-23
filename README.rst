@@ -26,14 +26,14 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
 .. code:: bash
 
   rm -fv /etc/apt/sources.list.d/debiancn.list; # 移除旧格式 sources.list 文件
-  cat <<EOF > /etc/apt/sources.list.d/debiancn.sources
+  sudo bash -c 'cat <<EOF > /etc/apt/sources.list.d/debiancn.sources
   Enabled: yes
   Types: deb
   URIs: http://repo.debiancn.org/
   Suites: bookworm
   Components: main
   Signed-By: /usr/share/keyrings/debiancn-keyring.gpg
-  EOF
+  EOF'
   wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20250122_all.deb -O /tmp/debiancn-keyring.deb;
   sudo apt install /tmp/debiancn-keyring.deb;
   sudo apt update;
