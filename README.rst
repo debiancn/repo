@@ -33,7 +33,7 @@ Debian 中文社区提供了一系列软件，可作为对 Debian 官方仓库�
   Components: main
   Signed-By: /usr/share/keyrings/debiancn-keyring.gpg
   ' | sudo tee /etc/apt/sources.list.d/debiancn.sources
-  wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20250123_all.deb -O /tmp/debiancn-keyring.deb;
+  wget https://repo.debiancn.org/pool/main/d/debiancn-keyring/debiancn-keyring_0~20250427_all.deb -O /tmp/debiancn-keyring.deb;
   sudo apt install /tmp/debiancn-keyring.deb;
   sudo apt update;
   rm /tmp/debiancn-keyring.deb;
